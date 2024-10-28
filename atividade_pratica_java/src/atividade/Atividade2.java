@@ -10,7 +10,7 @@ public class Atividade2 {
 		
 		Scanner leia = new Scanner(System.in);
 		leia.useLocale(Locale.US);
-		float n1,n2,n3,n4,media;
+		float n1 = 0.0f,n2 = 0.0f,n3 = 0.0f,n4 = 0.0f,media = 0.0f;
 		
 		System.out.println("Digite a nota 1: ");
 		n1 = leia.nextFloat();
