@@ -49,9 +49,9 @@ public class Atividade2 {
 		salario = sc.nextFloat();
 		
 		nSalario = salario + (salario * reajuste / 100);
-		System.out.printf("Nome do Colaborador %s ", nome);
-		System.out.printf("Cargo : %s", cargo);
-		System.out.printf("Salário: R$ %.2f", nSalario);
+		System.out.printf("Nome do Colaborador : %s %n", nome);
+		System.out.printf("Cargo : %s %n", cargo);
+		System.out.printf("Salário: R$ %.2f %n", nSalario);
 		
 		sc.close();
 		
