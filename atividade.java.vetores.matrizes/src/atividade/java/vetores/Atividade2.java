@@ -11,10 +11,10 @@ public class Atividade2 {
 		float media = 0;
 
 		for (int i = 0; i < vetorInteiros.length; i++) {
-			System.out.println("digita");
+			System.out.println("digite os valores do vetor");
 			vetorInteiros[i] = scanner.nextInt();
 			soma = soma + vetorInteiros[i];
-			media = soma / (vetorInteiros.length);
+			media = (float) soma / (vetorInteiros.length);
 
 		}
 
@@ -33,9 +33,9 @@ public class Atividade2 {
 		}
 
 		System.out.println("");
-		System.out.println(soma);
+		System.out.printf("Soma: %d ",soma);
 		System.out.println("");
-		System.out.println(media);
+		System.out.printf("Média: %.2f ",media);
 
 	}
 }
