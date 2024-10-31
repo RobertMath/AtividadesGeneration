@@ -17,6 +17,9 @@ public class Atividade1 {
 			if (sequenciaNumeros[i] == numero) {
 				int posicao = i;
 				System.out.println("O numero " + numero +  " está localizado na posição : " + posicao);
+			}else {
+				System.out.println("O número 40 não foi encontrado!");
+				break;
 			}
 			
 		}

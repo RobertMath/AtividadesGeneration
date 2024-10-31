@@ -36,6 +36,8 @@ public class Atividade2 {
 		System.out.printf("Soma: %d ",soma);
 		System.out.println("");
 		System.out.printf("Média: %.2f ",media);
-
+		
+		scanner.close();
+		
 	}
 }
