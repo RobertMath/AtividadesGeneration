@@ -1,0 +1,2 @@
+module atividade.java.collections {
+}
