@@ -28,6 +28,6 @@ public class Atividade2 {
 			System.out.printf("O número %d não foi encontrado! ", numeroDigitado);
 		}
 		
-	
+		scanner.close();
 	}
 }
