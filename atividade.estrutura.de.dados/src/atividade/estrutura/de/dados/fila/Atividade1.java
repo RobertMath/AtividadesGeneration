@@ -10,16 +10,15 @@ public class Atividade1 {
 	public static void main(String[] args) {
 		Queue<String> listaPessoas = new LinkedList<>();
 		Scanner scanner = new Scanner(System.in);
-		int opcao;
-
 		Collections.addAll(listaPessoas, "João", "Maria", "Ana");
+		int opcao;
 		
 		do {
 		System.out.println("######################################");
-		System.out.println("1: Adicionar um novo Cliente na fila. ");
-		System.out.println("2: Listar todos os Clientes na fila ");
-		System.out.println("3: Chamar (retirar) uma pessoa da fila ");
-		System.out.println("0: O programa deve ser finalizado. ");
+		System.out.println("\n1: Adicionar um novo Cliente na fila. ");
+		System.out.println("\n2: Listar todos os Clientes na fila ");
+		System.out.println("\n3: Chamar (retirar) uma pessoa da fila ");
+		System.out.println("\n0: O programa deve ser finalizado. ");
 		System.out.println("######################################");
 		System.out.println("Entre com a opção desejada: ");
 		 opcao = scanner.nextInt();
